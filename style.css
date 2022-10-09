@@ -1,0 +1,32 @@
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    text-align: left;
+    margin: 150px 500px;
+}
+.container > h1{
+    text-align: center;
+}
+.container > p{
+    padding-bottom: 25px;
+}
+.field > label{
+    padding-bottom: 10px;
+}
+input[type=text] {
+    width: 475px;
+    padding: 12px 20px;
+    display: inline-block;
+    color:gray;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px
+}
+#result > p {
+    padding-top: 15px;
+}
